@@ -1,4 +1,4 @@
-## Automobile Insurance Company Customer Churning Analysis 
+## Automobile Insurance Company Customer Analysis 
 
 In this project we have dataset of auto claims filed by customers of an automobile insurance company located in the southwest and western regions of the United States.
 

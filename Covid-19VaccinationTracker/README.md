@@ -1,7 +1,7 @@
 
 # Covid-19 Vaccination Tracker
 
-It is a Tableau dashboard to track to COVID-19 vaccination globally. It answers 6 different KPIs. 
+It is a Tableau dashboard to track COVID-19 vaccination globally. It answers 6 different KPIs. 
 
 The data is all over the globe between the dates 09/22/2020 to 10/20/2021. 
 

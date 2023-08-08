@@ -6,7 +6,6 @@
 
 - [Overview](#overview)
 - [Project Goals](#project-goals)
-- [Student Information](#student-information)
 - [Dataset](#dataset)
 - [Technology Stack](#technology-stack)
 - [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)

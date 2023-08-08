@@ -63,31 +63,6 @@ claims_df
 
 # Exploratory Data Analysis
 
-
-Executives at this company have hired you as a data science consultant to evaluate their claims data and make recommendations on pricing, customer behavior, and car insurance policy adjustments.
-
-You must think of **at least 8 relevant questions** that will provide evidence for your recommendations.
-
-The goal of your analysis should be discovering which variables drive the differences between customers with large lifetime values and
-customers who cost the company more than they provide in revenue through monthly premiums.
-
-Some of the many questions you can explore include:
-
--   Are there types of customers, based on their policy or demographics,
-    that are highly profitable?
-
--   Do certain policies have a lower number of claims, leading to large
-    profits?
-
--   Are there "problem customers" which have a large number of claims?
-
-You must answer each question and provide supporting data summaries with either a summary data frame (using `dplyr`/`tidyr`) or a plot (using `ggplot`) or both.
-
-In total, you must have a minimum of 5 plots and 4 summary data frames for the exploratory data analysis section. Among the plots you produce, you must have at least 4 different types (ex. box plot, bar chart, histogram, heat map, etc...)
-
-Each question must be answered with supporting evidence from your tables and plots.
-
-
 Analyze the dataset:
 ```{r}
 print("Unique in customer state")
@@ -453,75 +428,31 @@ ggplot(loss_making_customers, aes(x = months_policy_active))+
 
 # Summary of Results
 
-Write an executive summary of your overall findings and recommendations to the executives at this company. Think of this section as your closing remarks of a presentation, where you summarize your key findings and make recommendations to improve pricing, company operations, and car insurance policy adjustments.
-
-Your executive summary must be written in a [professional tone](https://www.universalclass.com/articles/writing/business-writing/appropriate-tone-in-business-communications.htm){target="_blank"}, with minimal grammatical errors, and should include the following sections:
-
-1.  An introduction where you explain the business problem and goals of your data analysis
-
-    -   What problem(s) is this company trying to solve? Why are they
-        important to their future success?
-
-    -   What was the goal of your analysis? What questions were you
-        trying to answer and why do they matter?
-
-<br>
-
-2.  Highlights and key findings from your Exploratory Data Analysis section
-
-    -   What were the interesting findings from your analysis and **why
-        are they important for the business**?
-
-    -   This section is meant to **establish the need for your
-        recommendations** in the following section
-
-<br>
-
-3.  Your recommendations to the company
-
-    -   Each recommendation must be supported by your data analysis
-        results
-
-    -   You must clearly explain **why** you are making each
-        recommendation and which results from your data analysis support
-        this recommendation
-
-    -   You must also describe the potential business impact of your
-        recommendation:
-
-        -   Why is this a good recommendation?
-
-        -   What benefits will the business achieve?
-      
-
-
 ## Executive Summary
-
-Please write your executive summary below. If you prefer, you can type your summary in a text editor, such as Microsoft Word, and paste your final text here.
 
 The data belongs to the automobile insurance company. The main problem the company faces is a decrease in profit over the long run. To sustain any insurance company, they must be considered all factors to decide the premium of the policy. 
 The goal of my analysis was to identify the factors and customers that are highly profitable to the insurance company and identify any pattern that can be seen in the problem customers. Apart from this, the analysis is done to recommend ways to improve the company’s profitability. I was trying to answer the questions that define the profitability and loss-making features of the customer. Since we are analyzing past data, preventive measures and improvements can be done to improve profitability.
 
 The key findings from the analysis:
 1. The gender does not affect the claim rate but married clients have significantly more claim rate.
-2. California has significantly higher number of claims. It is followed by Oregon, Arizona, Nevada, and Washington.
-3. In all the states employed customers bring most profit. Also, personal policy type has most number of highly profitable customers. Extended coverage is also profitable.
-4. Most of the highly profitable customers have completed high schools, associate degree, and bachelor degree. Profitability is significantly low for master degree and doctoral. For income between 10k to 70k is the range where we get most of the profit. Most of the highly profitable customers are from suburban.
-5. 1005 problem customers have 3 total claims and 255 customers have 4 total claims. Moreover, there is drastic increase in median loss caused to the company as the total claims increases.
-6. Midsize car category is causing more loss for all sales channel. Four-door vehicle class is causing more loss. Also, Agent and branch are the sales channel that has more loss making customers.   
-7. Luxury suv and luxury cars are most profitable. All midsize car owners are profitable. Agents and branches are more profitable.
+2. California has a significantly higher number of claims. It is followed by Oregon, Arizona, Nevada, and Washington.
+3. In all the states employed customers bring the most profit. Also, the personal policy type has the most number of highly profitable customers. Extended coverage is also profitable.
+4. Most of the highly profitable customers have completed high school, associate degrees, and bachelor's degrees. Profitability is significantly low for master's degrees and doctoral. For income between 10k to 70k is the range where we get most of the profit. Most of the highly profitable customers are from suburban.
+5. 1005 problem customers have 3 total claims and 255 customers have 4 total claims. Moreover, there is a drastic increase in median loss caused to the company as the total claims increase.
+6. Midsize car category is causing more loss for all sales channels. Four-door vehicle class is causing more loss. Also, Agent and branch are the sales channel that has more loss-making customers.   
+7. Luxury SUVs and luxury cars are the most profitable. All midsize car owners are profitable. Agents and branches are more profitable.
 8. The highly profitable clients are old clients of the company.
 
 
 The goal is to increase the profit and decrease loss-making. Here are a few recommendations for this:
-1.Increase the premium amount for married clients.  The number of claims made by them is highest compared to single and divorced clients.
-2.California state has the highest number of claims, followed by Oregon.  It would be better if the company could increase the premium amount in these states.
-3.The company has more “Personal” policy types with extended coverage with the most profit. If a possible company could expand to accommodate new corporate clients. The most loss is seen with basic coverage. The company can review the rates for coverage so that clients find “extended” coverage more beneficial.
-4.For all the states, master and doctoral clients have low drastic claim rates. The company can give more discounts to the clients with such high education, to attract new and preserve the old clients.
-5.Suburban has the most profitable and loss-making customers. We can increase the premium amount to increase the profit, apart from this we can have discounts for rural and urban residents to attract new customers.
-6.The company should monitor the claims made by the customers. If they have done more than 2 claims, the company should increase their premium amount.
-7.Agent and branches are attracting both the most loss-making customers and profitable customers. The company should create some training programs to improve the quality of agents and branch employees so that they can access new clients and give them a premium amount that is beneficial for the company.
-8.Loyal customers are highly profitable. It would be better if the company look into keeping the old clients first. To keep the clients for longer, the company could provide discounts to clients as they remain the client.
+1. Increase the premium amount for married clients.  The number of claims made by them is highest compared to single and divorced clients.
+2. California state has the highest number of claims, followed by Oregon.  It would be better if the company could increase the premium amount in these states.
+3. The company has more “Personal” policy types with extended coverage with the most profit. If possible company could expand to accommodate new corporate clients. The most loss is seen with basic coverage. The company can review the rates for coverage so that clients find “extended” coverage more beneficial.
+4. For all the states, master and doctoral clients have low drastic claim rates. The company can give more discounts to the clients with such high education, to attract new and preserve the old clients.
+5. Suburban has the most profitable and loss-making customers. We can increase the premium amount to increase the profit, apart from this we can have discounts for rural and urban residents to attract new customers.
+6. The company should monitor the claims made by the customers. If they have done more than 2 claims, the company should increase their premium amount.
+7. Agents and branches are attracting both the most loss-making customers and profitable customers. The company should create some training programs to improve the quality of agents and branch employees so that they can access new clients and give them a premium amount that is beneficial for the company.
+8. Loyal customers are highly profitable. It would be better if the company look into keeping the old clients first. To keep the clients for longer, the company could provide discounts to clients as they remain the client.
 
 
 

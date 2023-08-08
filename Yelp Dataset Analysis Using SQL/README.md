@@ -20,6 +20,9 @@
   - [Analysis Observations](#analysis-observations)
   - [Final Dataset SQL Code](#final-dataset-sql-code)
 - [Tech Stack](#tech-stack)
+- [Findings](#findings)
+- [Results](#results)
+- [Conclusions](#conclusions)
   
 ## Introduction
 
@@ -59,17 +62,39 @@ Identifying users with the most fans highlights influential community members.
 
 ## Part 2: Custom Analysis
 
-### Analysis Type
-In this section, we conduct a customized analysis focusing on working hours, review counts, star ratings, and business categories for open businesses in Las Vegas.
+### 1. Analysis Type
+Type of Analysis: Correlation between working hours, review counts, star ratings, and business categories for open businesses in the city of Las Vegas.
 
-### Data Requirements
-We utilize data from the Business, Category, Hours, and Reviews tables to uncover meaningful relationships.
+### 2. Data Requirements
+Data Needed: Business name, star ratings, review counts, business categories, working hours.
+Reason: To analyze the relationship between working hours, review counts, star ratings, and business categories.
 
-### Analysis Observations
-Our observations highlight intriguing patterns, such as the impact of working hours on review counts and star ratings, and the potential influence of business categories.
+### 3. Analysis Observations
+Observation 1: The fewer working hours lead to higher reviews.
+Observation 2: Businesses open during evening hours tend to have higher star ratings (3.5 and above).
+Observation 3: Higher working hours may lead to lower review counts and lower star ratings.
+Observation 4: Certain categories, such as Bakeries, Restaurants, and beauty & Spas, are mostly open on weekends.
 
-### Final Dataset SQL Code
-The final dataset is obtained by skillfully combining data sources and applying filters to yield actionable insights.
+### 4. Final Dataset SQL Code
+SELECT business.name, business.stars, business.review_count, category.category, hours.hours\
+FROM business \
+INNER JOIN category ON (category.business_id= business.id) \
+INNER JOIN hours ON (hours.business_id=business.id)\
+WHERE is_open = '1'\
+GROUP BY stars\
+ORDER BY review_count DESC
+
+| name                     | stars | review_count | category      | hours                |
+|--------------------------|-------|--------------|---------------|----------------------|
+| Edulis                   | 4.0   | 89           | Restaurants   | Saturday\|18:00-23:00 |
+| Papa Da Vinci            | 2.5   | 28           | Pizza         | Saturday\|11:00-3:00  |
+| Poutine Lafleur          | 3.5   | 11           | Restaurants   | Saturday\|11:00-19:00 |
+| Cardiac Solutions        | 3.0   | 9            | Doctors       | Monday\|8:00-16:30    |
+| McDonald's               | 2.0   | 8            | Fast Food     | Saturday\|5:00-0:00   |
+| Fresh Bonsai Nails & Spa | 1.5   | 7            | Beauty & Spas | Saturday\|9:30-18:00  |
+| Oaks Golf Course         | 4.5   | 5            | Active Life   | Saturday\|7:00-19:00  |
+| Red Apron Bakeshop       | 5.0   | 5            | Bakeries      | Saturday\|9:00-17:00  |
+
 
 ## Tech Stack
 

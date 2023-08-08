@@ -69,5 +69,5 @@ Based on our comprehensive analysis, here are the key findings and corresponding
 
 ## Project Details
 
-For a more detailed analysis, including code and visualizations, refer to the [data_analysis_project_template.Rmd](data_analysis_project_template.RMD) file in this repository.
+For a more detailed analysis, including code and visualizations, refer to the [data_analysis_project_template.Rmd](data_analysis_project_template.Rmd) file in this repository.
 

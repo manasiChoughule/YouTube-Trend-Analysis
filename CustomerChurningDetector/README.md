@@ -1,7 +1,6 @@
 # Auto Insurance Data Analysis Project
 
-![Project Banner](https://magnuminsurance.com/wp-content/uploads/2021/11/banner-auto-insurance.jpg)
-
+![project-image](https://www.travelers.com/iw-images/tools-resources/car/insuring/large/choosing_car_insurance_large.jpg)
 
 ## Table of Contents
 
@@ -12,7 +11,6 @@
 - [Technology Stack](#technology-stack)
 - [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
 - [Key Findings and Recommendations](#key-findings-and-recommendations)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -21,12 +19,6 @@ Welcome to the Auto Insurance Data Analysis Project! This project aims to provid
 ## Project Goals
 
 The primary objective of this data analysis is to derive actionable insights that contribute to the company's profitability and operational efficiency. By identifying patterns, trends, and factors that impact claims and customer behavior, we aim to make informed recommendations for pricing optimization, customer retention strategies, and policy enhancements.
-
-## Student Information
-
-- **Name**: Manasi Dhananjay Choughule
-- **University**: [Your University Name]
-- **Course**: [Your Course/Program Name]
 
 ## Dataset
 
@@ -41,7 +33,7 @@ The dataset (`claims_df.rds`) comprises 6,249 auto insurance claims. Each entry 
 
 Through a rigorous EDA process, we delve into the data to answer key questions and uncover insights that inform our recommendations. Our analysis covers the following areas:
 
-1. Gender and marital status impact on claim rates.
+1. Gender and marital status impact claim rates.
 2. Identification of highly profitable customer segments.
 3. Relationship between education, income, and residential type for profitable customers.
 4. Evaluation of "problem customers" with frequent claims.
@@ -75,11 +67,3 @@ Based on our comprehensive analysis, here are the key findings and corresponding
 6. Invest in agent and branch training to improve customer engagement and retention.
 7. Focus on customer retention strategies to maintain loyalty and profitability.
 8. Develop targeted risk assessment and mitigation strategies for identified loss-making segments.
-
-## Acknowledgments
-
-This project was completed as part of [Your Course/Program Name] at [Your University Name]. Special thanks to [Instructor's Name] for their guidance and support.
-
----
-
-**Note:** This README is designed as a template. Replace placeholders with actual project details and relevant information.

@@ -42,6 +42,13 @@ We explore how the duration a video spends on the trending list changed during a
 - **YouTube API**: Key data source for collecting daily trending video data.
 - **JSON Request**: Used to retrieve category information from Google API.
 
+## Repository Structure
+
+- **EDA.ipynb**: Exploratory Data Analysis notebook showcasing our analysis process.
+- **preprocessed.csv**: Preprocessed dataset containing essential data for analysis.
+- **PreprocessingData.ipynb**: Notebook illustrating data preprocessing steps on YouTube API data.
+- **Report.pdf**: Detailed technical report containing in-depth analysis results.
+  
 ## Results and Takeaways
 
 Our analysis highlights several key takeaways:

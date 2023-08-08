@@ -1,6 +1,6 @@
 # YouTube Trend Analysis: Unveiling Insights Before and After COVID
 
-!([youtube_logo.png](https://i.ytimg.com/vi/GZmGmkOJ9ME/maxresdefault.jpg))
+![youtube_logo.png](https://i.ytimg.com/vi/GZmGmkOJ9ME/maxresdefault.jpg)
 
 ## Introduction
 

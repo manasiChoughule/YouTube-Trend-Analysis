@@ -10,25 +10,15 @@ knitr::opts_chunk$set(echo = TRUE,
                       comment = "")
 ```
 
-
-
-# Student Information
-
-**Name**: Manasi Dhananjay Choughule 
-
-
-
-
-
 # Introduction
 
-This semester we will be working with a dataset of auto claims filed by customers of an automobile insurance company located in the southwest and western regions of the United States.
+We will be working with a dataset of auto claims filed by customers of an automobile insurance company located in the southwest and western regions of the United States.
 
 Insurance companies depend on accurate pricing estimates to maintain profitability. Auto policies must be priced so that the insurance company makes a profit in the long run, given the costs of their customers' payouts for accident repairs, total loss car replacements, medical fees, and legal fees.
 
 The executives at this insurance company have noticed declining profitability over the last several years and have hired you as a data science consultant to evaluate their claims data and make recommendations on pricing, customer behavior, and car insurance policy adjustments.
 
-The objective of this project is to perform an exploratory data analysis on the claims_df dataset and produce an executive summary of your key insights and recommendations to the executive team at the insurance company.
+The objective of this project is to perform exploratory data analysis on the claims_df dataset and produce an executive summary of your key insights and recommendations to the executive team at the insurance company.
 
 Before you begin, take a moment to read through the following insurance company terms to familiarize yourself with the industry:  [Auto Insurance
 Terms](https://www.iii.org/article/auto-insurance-jargon-buster "Auto Insurance Terms"){target="_blank"} 
@@ -38,8 +28,6 @@ Terms](https://www.iii.org/article/auto-insurance-jargon-buster "Auto Insurance 
 ## Auto Claims Data
 
 The `claims_df` data frame is loaded below and consists of 6,249 auto claims submitted by customers of the insurance company. The rows in this data frame represent a single claim with all of the associated features that are displayed in the table below.
-
-**Note**: If you have not installed the `tidyverse` package, please do so by going to the `Packages` tab in the lower right section of RStudio, select the `Install` button and type `tidyverse` into the prompt. If you cannot load the data, then try downloading the latest version of R (at least 4.0). The `readRDS()` function has different behavior in older versions of `R` and may cause loading issues.
 
 
 ```{r}

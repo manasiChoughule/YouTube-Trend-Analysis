@@ -66,3 +66,8 @@ Based on our comprehensive analysis, here are the key findings and corresponding
 6. Invest in agent and branch training to improve customer engagement and retention.
 7. Focus on customer retention strategies to maintain loyalty and profitability.
 8. Develop targeted risk assessment and mitigation strategies for identified loss-making segments.
+
+## Project Details
+
+For a more detailed analysis, including code and visualizations, refer to the [data_analysis_project_template.RMD](data_analysis_project_template.RMD) file in this repository.
+

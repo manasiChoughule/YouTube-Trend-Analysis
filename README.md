@@ -65,5 +65,5 @@ In this data-driven journey, we've not only gained insights into YouTube trends 
 
 Feel free to explore our detailed analysis in the full report. Your feedback and collaboration are highly valued as we continue to explore the ever-changing landscape of online trends.
 
-**For more details, you can find the complete project report in [report](https://github.com/manasiChoughule/Course-Projects/blob/main/Recognizing%20Covid-19%20Impact%20on%20YouTube%20Trending%20Video/Report.pdf).**
+**For more details, you can find the complete project report in [report](https://github.com/manasiChoughule/YouTube-Trend-Analysis/blob/main/Report.pdf).**
 

@@ -1,4 +1,4 @@
-# Auto Insurance Data Analysis Project
+# Auto Insurance Customer Churning Project
 
 ![project-image](https://www.travelers.com/iw-images/tools-resources/car/insuring/large/choosing_car_insurance_large.jpg)
 
